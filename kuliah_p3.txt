@@ -91,3 +91,5 @@ git config user.email '203040096@mail.unpas.ac.id' --global = untuk menimpa emai
 git commit -m "satu" = untuk commit dengan pesan satu
 
 git log = untuk lihat histori commit
+
+code . = untuk otomatis buka code editor

@@ -14,7 +14,7 @@ $buku = query("SELECT * FROM buku");
    <?php require_once('head/link.php') ?>
    <?php require_once('head/script.php') ?>
 
-   <title>ANIGABooKS</title>
+   <title>ANIGABOOKS</title>
 </head>
 
 <body>

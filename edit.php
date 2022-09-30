@@ -18,7 +18,7 @@ $buku = query("SELECT id,judul,penulis,penerbit,tahun_terbit,gambar FROM buku WH
    <?php require_once('head/link.php') ?>
    <?php require_once('head/script.php') ?>
 
-   <title>ANIGABooKS</title>
+   <title>ANIGABOOKS</title>
 </head>
 
 <body>
