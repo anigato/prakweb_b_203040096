@@ -1,0 +1,74 @@
+git adalah aplikasi untuk mempermudah pengaksesan github
+
+github adalah layanan web untuk mengupload source code
+pada github dapat memberikan apresiasi kepada orang lain, bisa mendapatkan donasi.
+
+GIT =  adalah Version Control System (sf untuk mengelola versi source code). untuk mengelola versi code/perubahan code
+
+git diciptakan untuk memecahkan masalah
+- lihat versi sebelum dan sesudah / rekaman perubahan
+- kolaborasi tim
+
+VCS adalah 
+sistem yang menyimpan rekaman perubahan code
+memungkinkan kolaborasi yang baik
+
+SF VCS
+-GIT
+-SBN perusahaan besar namun codingan jadul
+
+
++ GIT = sf untuk mengelola perubahan file dalam folder
++ Repositori/repo = folder yang ada gitnya
++ Commit = riwayat perubahan file dalam repo (lacak mana yang hilang, mana berubah, mana yang bertambah). didalam repo akan ada folder hidden ".git" yang merekam. commit dilakukan setelah code di save. beri komentar pada commit apa yang barusan dikerjakan.
+---setiap commit memiliki commit hash, adalah id unik
+---commit ada penulis codingan /author (nama&email) dan kapan melakukan commit
+---selalu ada pesan/komentar commit, apa yang dikerjakan
++ Branch = cabang commit agar codingan utama tidak terganggu, jika branch sudah aman baru masukin lagi ke codingan utama(merge). jika coding branch error, coding utama masih aman.
+
+
+
+
+
+GITHUB = layanan cloud untuk menyimpan dan mengelola project.
+
+pada komputer ada git.
+PUSH = upload dari komputer ke GITHUB
+PULL = menarik dari GITHUB ke Komputer
+CLONE = menarik dari GITHUB ke Komputer untuk pertamakali
+
+Layanan selain github
+- GitLab = untuk expereimen(belajar), fitur keren github gratis di GitLab
+- GitBucket = untuk code jadul
+
+
+
+TUTORIAL GIT
+
+PWD = untuk mengetahui direktori git
+Print Working Directory
+
+cd .. = ke directory sebelumnya
+Change Directory
+
+cd ../.. = ke 2 direktori sebelumnya
+
+cd x = untuk langsung masuk ke folder x
+
+cd c: x = setelah ke c: lalu klik huruf pertama folder xampp lalu klik tab untuk mempermudah
+
+ls = untuk melihat daftar file dan folder pada direktori sekarang
+
+ls -all = untuk melihat semua file, bahkan file hidden
+
+clear = untuk membersihkan layar
+
+
+git init = untuk membuat folder jadi repo
+repo menjadi master, master adalah branch utama
+
+git branch -m main = untuk mengubah branch master menjadi main
+git checkout -B main = buat branch baru bernama main, lalu pindah ke main dan master dihapus
+
+git add = menambahkan satu file/folder agar dilacak git
+git add . = menambahkan semua file/folder agar dilacak git
