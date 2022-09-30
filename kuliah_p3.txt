@@ -72,3 +72,22 @@ git checkout -B main = buat branch baru bernama main, lalu pindah ke main dan ma
 
 git add = menambahkan satu file/folder agar dilacak git
 git add . = menambahkan semua file/folder agar dilacak git
+
+
+git status =  untuk melihat file/folder yang berhasil dilacak git
+
+git config user.name = untuk mengecek username yang terhubung pada git
+
+git config user.email = untuk mengecek emaiol yang terhubung pada git
+
+git config user.name 'anigato' = untuk menimpa username pada satu repositori
+
+git config user.name 'anigato' --global = untuk menimpa username pada semua direktori
+
+git config user.email '203040096@mail.unpas.ac.id' = untuk menimpa email pada satu repositori
+
+git config user.email '203040096@mail.unpas.ac.id' --global = untuk menimpa email pada semua direktori
+
+git commit -m "satu" = untuk commit dengan pesan satu
+
+git log = untuk lihat histori commit
