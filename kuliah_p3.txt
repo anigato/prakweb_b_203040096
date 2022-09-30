@@ -93,3 +93,7 @@ git commit -m "satu" = untuk commit dengan pesan satu
 git log = untuk lihat histori commit
 
 code . = untuk otomatis buka code editor
+
+git remote add origin https://github.com/anigato/prakweb_b_203040096.git = untuk mengkoneksikan github kedalam git di komputer
+
+git push -u origin main = untuk push file ke github branch main

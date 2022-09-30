@@ -7,3 +7,6 @@
 <!-- sweetalert -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.css" rel="stylesheet">
 </link>
+
+<!-- masukan style manual -->
+<link rel="stylesheet" href="css/style.css"></link>
