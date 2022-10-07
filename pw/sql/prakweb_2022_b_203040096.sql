@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.1
+-- version 4.8.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 30, 2022 at 09:57 AM
--- Server version: 10.4.11-MariaDB
--- PHP Version: 7.4.2
+-- Generation Time: Oct 07, 2022 at 05:49 AM
+-- Server version: 10.1.37-MariaDB
+-- PHP Version: 7.3.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -51,7 +51,8 @@ INSERT INTO `buku` (`id`, `judul`, `penulis`, `penerbit`, `tahun_terbit`, `gamba
 (16, 'Detective Conan 100', 'Aoyama Gosho', 'Elex Media Komputindo', '2022', 'Conan_100.jpg'),
 (17, 'Spy X Family 01', 'Endo Tetsuya', 'Elex Media Komputindo', '2022', 'Spy_x_Family_01.jpg'),
 (18, 'Hai Miiko 34', 'Ono Eriko', 'm&c!', '2022', 'Hai-Miiko--34.jpeg'),
-(30, 'Komik Next G: Rahasia Rambut Kakak Rpl', 'Azka Aulia Rahman &amp; Mei', 'Mizan Media Utama Pt', '2022', 'Kom17914.jpg');
+(30, 'Komik Next G: Rahasia Rambut Kakak Rpl', 'Azka Aulia Rahman &amp; Mei', 'Mizan Media Utama Pt', '2022', 'Kom17914.jpg'),
+(32, 'Dr. Stone 01', 'Riichiro Inagaki', 'Elex Media Komputindo', '2022', 'Dr.356717.jpg');
 
 --
 -- Indexes for dumped tables
@@ -71,7 +72,7 @@ ALTER TABLE `buku`
 -- AUTO_INCREMENT for table `buku`
 --
 ALTER TABLE `buku`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
