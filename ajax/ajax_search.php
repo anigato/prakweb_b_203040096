@@ -7,17 +7,17 @@ $buku = search($_GET['keyword']);
    <div class="text-center col-sm-8">
       <?php if (isset($_GET['keyword'])) : ?>
          <?php if (empty($buku)) : ?>
-            <h4>Buku dengan kata kunci "<?= $_GET['keyword'] ?>" Tidak ditemukan</h4>
+            <h4>Buku dengan kata kunci "<span class="text-danger"><?= $_GET['keyword'] ?></span>" Tidak ditemukan</h4>
          <?php else : ?>
             <?php if ($_GET['keyword'] == "") : ?>
             <?php else : ?>
-               <h4>Menampilkan buku dengan kata kunci "<?= $_GET['keyword'] ?>"</h4>
+               <h4>Menampilkan buku dengan kata kunci "<span class="text-success"><?= $_GET['keyword'] ?></span>"</h4>
             <?php endif; ?>
          <?php endif; ?>
       <?php endif; ?>
    </div>
    <div class="col-sm-4">
-      <a href="insert.php" class="btn btn-success btn-lg"><i class="fa-solid fa-plus"></i> Tambah Buku Baru</a>
+      <a href="add.php" class="btn btn-success btn-lg"><i class="fa-solid fa-plus"></i> Tambah Buku Baru</a>
    </div>
 </div>
 

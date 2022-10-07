@@ -17,7 +17,6 @@ if (isset($_POST['keyword'])) {
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <?php require_once('head/link.php') ?>
     <?php require_once('head/script.php') ?>
     <title>ANIGABOOKS</title>
@@ -28,7 +27,7 @@ if (isset($_POST['keyword'])) {
     <div class="container content mt-5 mb-5">
 
         <div class="mb-3 text-end">
-            <a href="insert.php" class="btn btn-success btn-lg"><i class="fa-solid fa-plus"></i> Tambah Buku Baru</a>
+            <a href="add.php" class="btn btn-success btn-lg"><i class="fa-solid fa-plus"></i> Tambah Buku Baru</a>
         </div>
 
         <div class="row row-cols-1 row-cols-lg-5 row-cols-sm-2 g-4">

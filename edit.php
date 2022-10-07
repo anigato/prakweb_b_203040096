@@ -105,7 +105,7 @@ $buku = query("SELECT id,judul,penulis,penerbit,tahun_terbit,gambar FROM buku WH
                 
                 Swal.fire({
                     title:'Success!',
-                    text:'Buku bini berhasil diubah',
+                    text:'Buku ini berhasil diubah',
                     type:'success',
                     confirmButtonColor: '#3085d6',
                     confirmButtonText: 'OK'
@@ -127,7 +127,7 @@ $buku = query("SELECT id,judul,penulis,penerbit,tahun_terbit,gambar FROM buku WH
                     confirmButtonText: 'OK'
                 }).then((result) => {
                     if (result.value) {
-                    document.location.href='insert.php';
+                    document.location.href='add.php';
                     }
                 })
                 </script>
@@ -143,7 +143,7 @@ $buku = query("SELECT id,judul,penulis,penerbit,tahun_terbit,gambar FROM buku WH
                     confirmButtonText: 'OK'
                 }).then((result) => {
                     if (result.value) {
-                    document.location.href='insert.php';
+                    document.location.href='add.php';
                     }
                 })
                 </script>
