@@ -10,7 +10,7 @@ class Mahasiswa_model {
    }
 
    public function getAllMahasiswa(){
-      $this->db->query('SELECT * FROM '.$this->table);
+      $this->db->query('SELECT * FROM '.$this->table.' ORDER BY id DESC');
       return $this->db->resultSet();
    }
 
@@ -30,6 +30,17 @@ class Mahasiswa_model {
       $this->db->bind('nrp',$data['nrp']);
       $this->db->bind('email',$data['email']);
       $this->db->bind('jurusan',$data['jurusan']);
+
+      $this->db->execute();
+
+      return $this->db->rawCount();
+   }
+
+   //menghapus mahasiswa
+   public function hapusDataMahasiswa($id){
+      $query = "DELETE FROM mahasiswa WHERE id = :id";
+      $this->db->query($query);
+      $this->db->bind('id', $id);
 
       $this->db->execute();
 
