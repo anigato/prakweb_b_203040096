@@ -66,4 +66,9 @@ class Database
       $this->execute();
       return $this->stmt->fetch(PDO::FETCH_ASSOC);
    }
+
+   // untuk menghitung berapa baris yang baru berubah dalam tabehl, bisa ubah, tambah, hapus, edit
+   public function rawCount(){
+      return $this->stmt->rowCount();
+   }
 }
