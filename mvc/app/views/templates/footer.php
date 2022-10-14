@@ -10,8 +10,12 @@
 <!-- bootstrap 5 Manual-->
 <script src="<?= BASEURL ?>/js/bootstrap.min.js"></script>
 
+<!-- script manual-->
+<script src="<?= BASEURL ?>/js/script.js"></script>
+
 <!-- sweetalert -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.js"></script>
+
 
 </body>
 
