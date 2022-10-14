@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 07, 2022 at 12:41 PM
+-- Generation Time: Oct 14, 2022 at 06:55 AM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.3.0
 
@@ -73,8 +73,12 @@ CREATE TABLE `mahasiswa` (
 --
 
 INSERT INTO `mahasiswa` (`id`, `nama`, `nrp`, `email`, `jurusan`) VALUES
-(1, 'Khoerul Anam', '203040096', '203040096@mail.unpas.ac.id', 'Teknik Informatika'),
-(2, 'ANIGATO', '203040099', '203040099@mail.unpas.ac.id', 'Teknik Industri');
+(2, 'ANIGATO', '203040099', '203040099@mail.unpas.ac.id', 'Teknik Industri'),
+(3, 'nana', '123', 'nana@gmail.com', 'Teknik Lingkungan'),
+(4, 'shinchan', '33453432', 'shinosuke@gmail.com', 'Teknik Industri'),
+(5, 'ono', '33444', 'ono@gmail.com', 'Teknik Mesin'),
+(6, 'ono nana', '33444', 'ono@gmail.com', 'Teknik Mesin'),
+(7, 'mbalalala', '3221233', 'onoa212313aaa@gmail.com', 'Teknik Lingkungan');
 
 --
 -- Indexes for dumped tables
@@ -100,13 +104,13 @@ ALTER TABLE `mahasiswa`
 -- AUTO_INCREMENT for table `buku`
 --
 ALTER TABLE `buku`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
 -- AUTO_INCREMENT for table `mahasiswa`
 --
 ALTER TABLE `mahasiswa`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
