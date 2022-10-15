@@ -1,0 +1,13 @@
+// laravel error 500
+1. cp .env.example .env
+2. php artisan key:generate
+3. chmod 777 -R  storage
+atau
+1. php artisan key:generate
+2. php artisan config:cache
+
+
+// aktifkan repositori git pada device baru
+1. git config user.name 'anigato'
+2. git config user.email '203040096@mail.unpas.ac.id'
+3. git remote add origin https://github.com/anigato/prakweb_b_203040096.git
