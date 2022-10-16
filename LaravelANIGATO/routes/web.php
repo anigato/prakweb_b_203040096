@@ -39,4 +39,4 @@ Route::get('/posts', [PostController::class, 'index']);
 
 //route ke posting blog 
 // parameter hanya ditulis pada url, tidak harus ditulis dengan parameter pada method
-Route::get('posts/{slug}', [PostController::class,'show']);
+Route::get('posts/{post:slug}', [PostController::class,'show']);

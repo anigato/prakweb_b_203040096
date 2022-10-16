@@ -17,11 +17,11 @@ class PostController extends Controller
     }
 
     // menampilkan detail post dengan parameter slug
-    public function show($slug)
+    public function show(Post $post)
     {
         return view('post', [
             "title" => "Singgle Post",
-            "post"  => Post::find($slug)
+            "post"  => $post
         ]);
     }
 }
